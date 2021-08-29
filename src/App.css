@@ -2,7 +2,9 @@
 body {
   font-family: IBM Plex Sans !important;
 }
-
+.my-dropdown-toggle::after {
+  content: none !important;
+}
 .fontuser i {
   position: absolute;
   left: 15px;

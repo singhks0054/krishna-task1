@@ -4,7 +4,8 @@ export default function Aside() {
   return (
     <div className="d-flex flex-column mt-5 ms-5">
       <div >
-        <span className=" "><i className="bi bi-geo-alt-fill"></i> Noida,India </span>
+        <i className="bi bi-geo-alt-fill"></i>
+        <input type="text" className="border-0 outline-none" placeholder="Noida,India" />
         <span className=" "><i className="bi bi-pencil-fill"></i></span>
         <hr />
       </div>

@@ -8,7 +8,7 @@ export default function Article() {
         <div className="d-none d-sm-block" >
           <nav aria-label="Page navigation  " className="d-flex justify-content-between">
             <ul className="pagination border-none">
-              <li className="page-item"><a className="page-link active" href="/">All Post(32)</a></li>
+              <li className="page-item"><a className="page-link fw-bold" href="/">All Post(32)</a></li>
               <li className="page-item"><a className="page-link" href="/">Article</a></li>
               <li className="page-item"><a className="page-link" href="/">Event</a></li>
               <li className="page-item"><a className="page-link" href="/">Education</a></li>
@@ -26,7 +26,7 @@ export default function Article() {
                   <li><a className="dropdown-item" href="/">Text</a></li>
                 </ul>
               </div>
-              <button type="button" className="btn btn-primary h-75 "> <i className="bi bi-people-fill"></i> Join Group</button>
+              <button type="button" className="btn btn-primary py-0 h-75 " data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ width: "125px" }}> <i className="bi bi-people-fill"></i> Join Group</button>
             </div>
           </nav>
         </div>
@@ -53,7 +53,16 @@ export default function Article() {
                 <h6 className="card-title">✍️ Article</h6>
                 <div className="d-flex justify-content-between">
                   <h5 className="card-text">What if famous brands had regular fonts? Meet RegulaBrands !</h5>
-                  <button className=" btn btn-light"><i className="bi bi-three-dots"></i></button>
+                  <div className="dropdown pb-3">
+                    <a className="btn btn-light  text-dark bg-light fw-bold" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i className="bi bi-three-dots"></i>
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a className="dropdown-item" href="/">Like</a></li>
+                      <li><a className="dropdown-item" href="/">Comment</a></li>
+                    </ul>
+                  </div>
+
                 </div>
                 <p>I have worked in UX for the better part of a decade. From now on, I plan to rei...</p>
               </div>
@@ -71,7 +80,15 @@ export default function Article() {
                 <h6 className="card-title">🔬️ Education</h6>
                 <div className="d-flex justify-content-between">
                   <h5 className="card-text">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
-                  <button className=" btn btn-light"><i className="bi bi-three-dots"></i></button>
+                  <div className="dropdown pb-3">
+                    <a className="btn btn-light  text-dark bg-light fw-bold" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i className="bi bi-three-dots"></i>
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a className="dropdown-item" href="/">Like</a></li>
+                      <li><a className="dropdown-item" href="/">Comment</a></li>
+                    </ul>
+                  </div>
                 </div>
                 <p>I have worked in UX for the better part of a decade. From now on, I plan to rei...</p>
               </div>
@@ -89,7 +106,15 @@ export default function Article() {
                 <h6 className="card-title">🗓️ Meetup</h6>
                 <div className="d-flex justify-content-between">
                   <h5 className="card-text">Finance & Investment Elite Social Mixer @Lujiazui</h5>
-                  <button className=" btn btn-light"><i className="bi bi-three-dots"></i></button>
+                  <div className="dropdown pb-3">
+                    <a className="btn btn-light  text-dark bg-light fw-bold" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i className="bi bi-three-dots"></i>
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a className="dropdown-item" href="/">Like</a></li>
+                      <li><a className="dropdown-item" href="/">Comment</a></li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="fw-bold" >
                   <span className="me-5"> <i className="bi bi-calendar2-event"></i> Fri, 12 Oct, 2018</span>
@@ -110,7 +135,15 @@ export default function Article() {
                 <h6 className="card-title">💼️ Job</h6>
                 <div className="d-flex justify-content-between">
                   <h5 className="card-text">Software Developer</h5>
-                  <button className=" btn btn-light"><i className="bi bi-three-dots"></i></button>
+                  <div className="dropdown pb-3">
+                    <a className="btn btn-light  text-dark bg-light fw-bold" href="/" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i className="bi bi-three-dots"></i>
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a className="dropdown-item" href="/">Like</a></li>
+                      <li><a className="dropdown-item" href="/">Comment</a></li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="fw-bold">
                   <span className="me-5"> <i className="bi bi-bag"></i> Innovaccer Analytics Private Ltd.</span>

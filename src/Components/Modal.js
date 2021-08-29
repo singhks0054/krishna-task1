@@ -31,10 +31,10 @@ export default function Modal() {
                     <input type="text" className="form-control" placeholder="First Name" aria-label="Username" />
                     <input type="text" className="form-control" placeholder="Last Name" aria-label="Server" />
 
-                    <input type="email" className="form-control w-100" id="exampleFormControlInput1" placeholder="Email" />
-                    <div className="input-group"><input type="email" className="form-control border-end-0 " id="exampleFormControlInput1" placeholder="Password" />
-                      <span className="input-group-text bg-light " id="basic-addon2"><i className="bi bi-eye"></i></span></div>
-                    <input type="email" className="form-control w-100" id="exampleFormControlInput1" placeholder="Confirm Password" />
+                    <input type="email" className="form-control w-100" id="exampleFormControlInputa" placeholder="Email" />
+                    <div className="input-group"><input type="email" className="form-control border-end-0 " id="exampleFormControlInput2b" placeholder="Password" />
+                      <span className="input-group-text bg-light " id="basic-addon3"><i className="bi bi-eye"></i></span></div>
+                    <input type="email" className="form-control w-100" id="exampleFormControlInput4b" placeholder="Confirm Password" />
                   </div>
                 </form>
                 <button type="button" className="btn btn-primary rounded-pill mt-3 w-100">Create Account</button>
@@ -73,9 +73,9 @@ export default function Modal() {
                 <h2>Sign In</h2>
                 <form action="">
                   <div className="input-group mt-5">
-                    <input type="email" className="form-control w-100" id="exampleFormControlInput1" placeholder="Email" />
-                    <div className="input-group"><input type="email" className="form-control border-end-0 " id="exampleFormControlInput1" placeholder="Password" />
-                      <span className="input-group-text bg-light " id="basic-addon2"><i className="bi bi-eye"></i></span></div>
+                    <input type="email" className="form-control w-100" id="exampleFormControlInput5b" placeholder="Email" />
+                    <div className="input-group"><input type="email" className="form-control border-end-0 " id="exampleFormControlInput6b" placeholder="Password" />
+                      <span className="input-group-text bg-light " id="basic-addon7b"><i className="bi bi-eye"></i></span></div>
                   </div>
                 </form>
                 <button type="button" className="btn btn-primary rounded-pill mt-3 w-100">Sign In</button>

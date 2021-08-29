@@ -8,7 +8,7 @@ export default function Home() {
           <div className="carousel-item active">
             <div className="d-flex justify-content-between d-sm-none pt-2 mx-3">
               <i className="bi bi-arrow-left text-light fs-4 "></i>
-              <button type="button" className="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Join Group</button>
+              <button type="button" className="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModala">Join Group</button>
             </div>
             <img className="d-block w-100  home" src="laptop1.jpg" alt="First slide" style={{ height: "70vh" }} />
             <div className="carousel-caption  d-md-block text-start">

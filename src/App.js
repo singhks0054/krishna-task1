@@ -17,7 +17,7 @@ function App() {
       <Home />
       <Modal />
       <Article />
-      {/* <Modal2 /> */}
+      <Modal2 />
     </>
   );
 }
